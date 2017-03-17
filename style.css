@@ -1,18 +1,51 @@
+#blueParagraph {
+  background-color: blue;
+  color: white; 
+}
 
+#secondParagraph {
+  font-family: cursive;
+}
+body {
+  background-image: url("https://thenypost.files.wordpress.com/2016/07/statue_liberty1a.jpg?quality=90&strip=all&w=664&h=996&crop=1&strip=all")
+}
+  
+#fourthParagraph {
+  float: right;
+}
+.evenNumbers {
+ color: #891464;
+}
+#sixthParagraph:hover {
+  color: orange;
+}
+p{
+  font-size: 20px;
+}
 .box {
   width: 100px;
   height: 100px;
-  display: inline-block;
+  display:inline-block;
 }
 
 #one {
   background-color: red;
 }
+#one:hover {
+  background-color: blue;
+}
+
 
 #two {
   background-color: blue;
 }
-
+#two:hover {
+ border-radius: 50%;
+}
 #three {
   background-color: green;
+  }
+#three:hover {
+  /*background-color: red*/
+  background-image: url("http://nomnompaleo.net/wp-content/uploads/2016/05/cherrychicken11.jpg");
 }
